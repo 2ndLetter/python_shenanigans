@@ -23,7 +23,7 @@ def my_funct(array):
     # f-String using the max() function to return the maximum value found in num_list
     print(f"Sum of max consecutive 1s is {(max(num_list))}")
 
-# Declare my_array within an array
+# Declare my_array as an array
 my_array = [1, 0, 1, 1, 0, 1, 1, 1]
 
 # Call the my_funct function
