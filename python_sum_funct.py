@@ -13,14 +13,14 @@ def my_funct(array):
         if num == 1:
             # Add 1 to array_sum
             array_sum += 1
-        # Else If statement if the number does NOT equal 1
-        elif num != 1:
+        # Else statement if the number does NOT equal 1
+        else:
             # Declare array_sum as zero to reset the counter
             array_sum = 0
         # Append value of array_sum to the num_list list
         num_list.append(array_sum)
 
-    # f-String to show the answer
+    # f-String using the max() function to return the maximum value found in num_list
     print(f"Sum of max consecutive 1s is {(max(num_list))}")
 
 # Declare my_array within an array
